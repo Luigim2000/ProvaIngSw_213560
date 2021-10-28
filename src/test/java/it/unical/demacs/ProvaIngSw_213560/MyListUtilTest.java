@@ -20,7 +20,7 @@ public class MyListUtilTest {
 	
 	@Before
 	public void beforeTest() {
-		System.out.println("Before Test");
+		System.out.println("Before Test:");
 		DateTime t=new DateTime(DateTimeZone.UTC);
 		System.out.println(t.now());
 		myListUtil=new MyListUtil();
@@ -28,7 +28,7 @@ public class MyListUtilTest {
 	
 	@After
 	public void afterTest() {
-		System.out.println("After Test");
+		System.out.println("After Test:");
 		DateTime t=new DateTime(DateTimeZone.UTC);
 		System.out.println(t.now());
 	}
